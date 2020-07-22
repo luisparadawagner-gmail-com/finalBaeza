@@ -1,0 +1,43 @@
+<h1>Formulario de Alta</h1>
+
+
+<form [formGroup]='inscripcionForm'>
+<div class="datosDelCiente">
+    
+    <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+            <input matInput type="text" formControlName="nombre">          
+    </mat-form-field>
+    
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Apellido</mat-label>
+            <input matInput type="text" formControlName="apellido">          
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Telefono</mat-label>
+            <input matInput type="int" formControlName="telefono">
+    </mat-form-field>
+    <br>
+
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>Direccion</mat-label>
+            <input matInput type="text" formControlName="direccion">
+    </mat-form-field>
+    <br>
+    <br>
+    <mat-form-field appearance="outline">
+        <mat-label>FechaNacimiento</mat-label>
+            <input matInput type="text" formControlName="fecha">
+    </mat-form-field>
+    
+      
+  
+    <button mat-raised-button (click)="cargarDatos()">Cargar Datos</button>
+        
+</div> 
+
+</form>
+
