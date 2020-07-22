@@ -1,0 +1,5 @@
+[   
+    { "nombre": "carlos", "apellido": "rivas", "telefono": 153499999, "direccion": "Pampa 234", "fechaNac": 200620 },
+    { "nombre": "yamila", "apellido": "gutierrez", "telefono": 15433333, "direccion": "Bariloche 89", "fechaNac": 200620}
+           
+]
