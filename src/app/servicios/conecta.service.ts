@@ -13,4 +13,9 @@ export class ConectaService {
 		return this.httpClient.get('./../assets/personas.json');
 	}
 
+	getRutina(): Observable<any> {
+		return this.httpClient.get('./../assets/rutinas.json');
+	}
+
+
 }
