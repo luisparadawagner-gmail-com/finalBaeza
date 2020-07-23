@@ -50,5 +50,9 @@ export class ListarComponent implements OnInit {
       }
   
 
+    goToListarRut(){
+      this.router.navigate(["/app-rutina"]);
+    }
+
       
 }
